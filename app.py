@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"🗂️ Log file size: {os.path.getsize('verification_log.txt')} bytes")
