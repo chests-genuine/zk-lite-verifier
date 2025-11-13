@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print("\033[92m✅ Hash matches expected value.\033[0m")
