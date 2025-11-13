@@ -84,3 +84,9 @@ def main():
 
 if __name__ == "__main__":
     main()
+for i in range(3):
+    if w3.is_connected(): break
+    time.sleep(1)
+if not w3.is_connected():
+    print("❌ RPC connection failed after 3 retries.")
+    sys.exit(1)
