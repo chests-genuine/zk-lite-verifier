@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"🕒 Verification started at {time.strftime('%Y-%m-%d %H:%M:%S')}")
