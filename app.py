@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+if len(code) > 30000: print("⚠️ Large contract detected — potential proxy or zk-rollup core.")
