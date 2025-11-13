@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"🔑 Code Keccak256: {Web3.keccak(code).hex()}")
