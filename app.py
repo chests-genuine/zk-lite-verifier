@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"🔍 RPC URL length: {len(rpc_url)} chars")
