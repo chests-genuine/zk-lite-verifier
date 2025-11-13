@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"🌐 Using RPC endpoint: {rpc_url.split('//')[1].split('/')[0]}")
