@@ -84,3 +84,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+import random
+emoji = random.choice(["🧠", "🔒", "💫", "⚙️", "🛡️"])
+print(f"{emoji} Verification completed successfully.")
