@@ -84,3 +84,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+print(f"ℹ️ Using web3.py version: {Web3.__version__}")
